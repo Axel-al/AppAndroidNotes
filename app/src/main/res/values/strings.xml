@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Notes</string>
+    <string name="notes_title">Mes notes</string>
+    <string name="add_note">Ajouter une note</string>
+    <string name="empty_notes">Aucune note pour le moment. Touchez + pour commencer.</string>
+    <string name="empty_content">Aucun contenu</string>
+    <string name="pin_note">Épingler</string>
+    <string name="unpin_note">Désépingler</string>
+    <string name="pinned_badge">Épinglée</string>
+    <string name="delete_note">Supprimer la note</string>
+    <string name="delete_dialog_title">Supprimer la note ?</string>
+    <string name="delete_dialog_message">Êtes-vous sûr de vouloir supprimer cette note ?</string>
+    <string name="delete">Supprimer</string>
+    <string name="cancel">Annuler</string>
+    <string name="last_modified">Modifiée le %1$s</string>
+    <string name="new_note_title">Nouvelle note</string>
+    <string name="edit_note_title">Modifier la note</string>
+    <string name="back">Retour</string>
+    <string name="save_note">Enregistrer</string>
+    <string name="note_title_label">Titre</string>
+    <string name="note_content_label">Contenu</string>
+    <string name="generic_error">Une erreur est survenue.</string>
 </resources>

@@ -8,8 +8,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import fr.eseo.notes.theme.NotesTheme
 import dagger.hilt.android.AndroidEntryPoint
+import fr.eseo.notes.ui.navigation.NotesApp
+import fr.eseo.notes.ui.theme.NotesTheme
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -18,7 +19,14 @@ class MainActivity : ComponentActivity() {
 
     enableEdgeToEdge()
     setContent {
-      NotesTheme { Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) { MainNavigation() } }
+      NotesTheme {
+        Surface(
+          modifier = Modifier.fillMaxSize(),
+          color = MaterialTheme.colorScheme.background,
+        ) {
+          NotesApp()
+        }
+      }
     }
   }
 }

@@ -93,9 +93,4 @@ dependencies {
   // Navigation Compose et routes sérialisables
   implementation(libs.navigation.compose)
   implementation(libs.kotlinx.serialization.json)
-
-  // Navigation 3 du squelette, retirée lors de l'implémentation du graphe du TP
-  implementation(libs.androidx.navigation3.ui)
-  implementation(libs.androidx.navigation3.runtime)
-  implementation(libs.androidx.lifecycle.viewmodel.navigation3)
 }

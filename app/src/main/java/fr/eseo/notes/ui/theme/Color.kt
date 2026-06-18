@@ -1,4 +1,4 @@
-package fr.eseo.notes.theme
+package fr.eseo.notes.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

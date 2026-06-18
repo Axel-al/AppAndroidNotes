@@ -1,4 +1,4 @@
-package fr.eseo.notes.theme
+package fr.eseo.notes.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
