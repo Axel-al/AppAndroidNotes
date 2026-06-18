@@ -55,6 +55,7 @@ import java.time.Instant
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
+import java.util.Locale
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -256,6 +257,7 @@ private fun formatDate(timestamp: Long): String {
   val formatter =
     remember {
       DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT)
+        .withLocale(Locale.FRANCE)
         .withZone(ZoneId.systemDefault())
     }
   return remember(timestamp, formatter) { formatter.format(Instant.ofEpochMilli(timestamp)) }
